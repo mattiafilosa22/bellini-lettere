@@ -79,12 +79,23 @@ p.int{
 
 #imgLettera{
     float: left;
-    display: block;
+    /* display: block; */
+    display: flex;
     margin-top: 3%;
-    clear:both;
+    clear: both;
     width: 60%;
+    justify-content: space-around;
     margin-bottom: 5%;
+    align-items: center;
+    flex-direction: row;
 }
+
+@media screen and (max-width:499px){
+    div#imgLettera{
+        margin-left: 11%;
+    }
+}
+
 /*Testo lettera*/
 .annot{
     position: relative;
@@ -205,19 +216,21 @@ a.org{
     color:white;
 }
 #avanti {
-    position: absolute;
-width: 92px;
+    /* position: absolute; */
+    width: 6rem;
+    height: 6rem;
 cursor: pointer;
-top: 118%;
-left: 45%;
+/* top: 118%;
+left: 45%; */
 }
 
 #indietro {
-    width: 90px;
+width: 6rem;
+height: 6rem;
 cursor: pointer;
-position: absolute;
+/* position: absolute;
 left: 18px;
-top: 118%;
+top: 118%; */
 }
 /*Fondo pagina*/
 
@@ -225,7 +238,7 @@ div#persone,div#luoghi,div#edifici{
     border: solid;
     border-color:maroon;
     padding-left: 1%;
-    height: 90%;
+    height: 30rem;
     margin-bottom: 2%;
     font-size: 0.8em;
     border-radius:5px;
@@ -384,7 +397,7 @@ div.mappe{
     position: relative;
     float: left;
     clear: both;
-    margin-left: 18%;
+    
   
 }
 a.zona:hover{
