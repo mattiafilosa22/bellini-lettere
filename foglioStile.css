@@ -91,7 +91,7 @@ p.int{
 }
 
 @media screen and (max-width:499px){
-    div#imgLettera{
+    #imgLettera{
         margin-left: 11%;
     }
 }
@@ -238,7 +238,7 @@ div#persone,div#luoghi,div#edifici{
     border: solid;
     border-color:maroon;
     padding-left: 1%;
-    height: 30rem;
+    height: 35rem;
     margin-bottom: 2%;
     font-size: 0.8em;
     border-radius:5px;
